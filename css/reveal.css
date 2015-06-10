@@ -1183,6 +1183,7 @@ iframe {
 .quote-bg {
   bottom: -200px;
   font-size: 24px !important;
+  line-height: 1.6 !important;
   background: rgba(0, 0, 0, 0.75) !important; }
 
 .center {
