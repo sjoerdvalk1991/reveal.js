@@ -1171,12 +1171,6 @@ iframe {
   top: 80px;
   left: 14px; }
 
-.pop {
-  position: absolute;
-  width: 100% !important;
-  height: 100%;
-  min-height: 600px; }
-
 .mbm {
   margin-bottom: 10px; }
 
