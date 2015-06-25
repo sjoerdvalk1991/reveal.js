@@ -1164,10 +1164,45 @@ body {
   background-size: cover;
   overflow: hidden; }
 
+  #phone-case-1 {
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-top: -55px;
+  width: 355px;
+  height: 768px;
+  background: url("http://ionicframework.com/img/phone-case.png") no-repeat right top;
+  background-size: cover;
+  overflow: hidden; }
+
 iframe {
   position: absolute;
   width: 250px !important;
   height: 418px;
+  top: 80px;
+  left: 14px; }
+
+  .img-img{
+      position: absolute;
+    width: 320px !important;
+  height: 580px;
+  top: 80px;
+  left: 14px;
+  border: 0px !important;
+}
+
+.wb-1{
+  background-position: center center !important;
+}
+
+.mg-1{
+  background-position: center center !important;
+}
+
+  #fix {
+  position: absolute;
+  width: 320px !important;
+  height: 580px;
   top: 80px;
   left: 14px; }
 
@@ -1211,12 +1246,17 @@ iframe {
   text-align: center;
   text-overflow: ellipsis;
   color: #fff;
-  height: 40px;
-  width: 43px;
+  height: 50px;
+  width: 50px;
   font-size: 30px !important;
   line-height: 42px;
   cursor: pointer;
   position: absolute;
   z-index: 100;
-  right: 182px;
-  top: 172px; }
+  right: 60px;
+  top: 182px; }
+
+
+  html.img-left div.slide-background.present {
+    background-position: left top;
+}

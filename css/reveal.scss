@@ -1349,6 +1349,18 @@ body {
 	
 }
 
+#phone-case-1 {
+	position: relative;
+	z-index: 1;
+	float: left;
+	margin-top: -50px;
+	width: 335px;
+	height: 748px;
+	background: url("http://ionicframework.com/img/phone-case.png") no-repeat right top;
+	background-size: cover;
+	overflow: hidden;
+
+
 iframe {
 	position: absolute;
 	width: 250px !important;
@@ -1387,7 +1399,6 @@ iframe {
  	background-color: #ef4e3a;
   	box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15);
 	color: #444;
-	position: relative;
 	opacity: 0;
 	margin: 0;
 	padding: 0 12px;
@@ -1398,15 +1409,15 @@ iframe {
 	text-align: center;
 	text-overflow: ellipsis;
 	color: #fff;
-	height: 40px;
-	width: 43px;
+	height: 50px;
+	width: 50px;
 	font-size: 30px !important;
 	line-height: 42px;
 	cursor: pointer;
 	position: absolute;
 	z-index: 100;
-	right: 182px;
-	top: 172px;
+	right: 142px;
+	top: 132px;
 }  
 
 
